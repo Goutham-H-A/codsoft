@@ -17,7 +17,7 @@ public class StudentGradeCalculator {
             subjectMarks[i] = input.nextInt();
 
             if (subjectMarks[i] < 0 || subjectMarks[i] > 100) {
-                System.out.println("Invalid input. The marks should be between 0 and 100.");
+                System.out.println("Invalid input. The marks should be between 0 and 100");
                 return;
             }
             totalMarks += subjectMarks[i];
